@@ -1,0 +1,63 @@
+﻿.preview {
+  display: table-cell;
+  padding: 20px;
+  border: solid 1px gray;
+  background-color: lightyellow;
+  min-width: 300px;
+}
+
+.editor {
+  display: table-cell;
+  padding: 20px;
+}
+
+.preview-separator{
+  width: 40px;
+  display: table-cell;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+ol{
+  margin-top: 0px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+
+li input[type=text]{
+  width: 253px;
+}
+
+html, body, input[type=text] {
+  font-family: 'Segoe UI', 'Lucida Sans', Arial;
+  font-size: 20pt;
+}
+
+input[type=text] {
+  border: solid 1px gray;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+section {
+  padding-left: 20px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 42pt;
+}
+
+.margin-bottom{
+  margin-bottom: 20px;
+}

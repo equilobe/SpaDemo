@@ -1,0 +1,12 @@
+﻿<div>
+    <div>
+        <input type="text" data-bind="value: survey.name" />
+    </div>
+
+    <div data-bind="foreach: questionEditors">
+        <div data-bind="compose: $data"></div>
+    </div>
+
+    <button data-bind="click: addQuestion">Add Question</button>
+
+</div>

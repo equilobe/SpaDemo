@@ -1,0 +1,13 @@
+﻿<div>
+    <div>
+        <input type="text" data-bind="value: question.name" />
+    </div>
+    <ol data-bind="foreach: question.answers">
+        <li>
+            <input type="text" data-bind="value: name" />
+        </li>
+    </ol>
+    <div class="margin-bottom">
+        <button data-bind="click: addAnswer">Add answer</button>
+    </div>
+</div>
